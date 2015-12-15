@@ -1,0 +1,34 @@
+'''
+This script provides parsing methods for docs in html format.
+Every parser should provides three output lists:
+h1List: most important tags
+h2List: second most important tagts
+emphList: contents that are emphasized
+textList: actual texts.
+
+The first three lists are used as topics within a document.
+'''
+
+
+import nltk
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+
+
+def extractTextInfo(filename):
+    emphList = list()
+    h1List = list()
+    h2List = list()
+    textList = list()
+    with open(filename) as doc:
+        sentencesList = tokenizer.tokenize(doc.read())
+        for sentence in sentencesList:
+            print sentence
+            print ' '
+    # todo: how to I filter the keywords?
+    return emphList, h1List, h2List, textList
+
+if __name__ == '__main__':
+    emph, h1, h2, text = extractTextInfo('./appleLegalDocDir/apple-osx1011.txt')

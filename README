@@ -1,0 +1,35 @@
+Current design strategies: 
+Unsupervised Learning: 
+1. LDA to extract topics across the documents.
+   - LDA is parameterized by alpha and beta. gensim seems to have this implementation: http://pydoc.net/Python/gensim/0.7.6/gensim.models.ldamodel/
+2. For a new coming doc, use kmeans to find doc-specific centroids. Weight is assigned by word2vec. 
+  - From step 2, we get a rough distribution of how the sentences are grouped based on the semantics of the document. 
+
+  - For visualization only: use PCA to reduce the dimension of the data and present it on a 2d space.
+
+
+  - So... how well does each sentence fit with the topics of our database? 
+    - This gives a second pass of kmeans.... we create a fake sentence from the topics generated at the first step, and use this 
+    - as a single centroid to measure how far for each cluster the sentences are away from it. 
+      - intuition: if a sentence is closer to the topic sentence, this sentence is likely to be a normal one... 
+  - we need to learn about the number of centroids of kmeans using a good meaningful way.... 
+
+# bonus step: 
+# not sure if necessary after the first step 
+3. For each cluster: 
+   - Local Outlier Factor (LOF): https://en.wikipedia.org/wiki/Local_outlier_factor
+   - Finds the anormaly
+
+Current test strategies: 
+1. For LDA: a good parameterized LDA should not change the topics too much if we test using LOOCV. 
+2. For kmeans: 
+   - Not sure how to measure.... 
+3. How to measure perplexity? # measured... done for LDA training. best number of topics: 5. 
+4. How about using Silhouettes as a measurement of how good our clustering strategy is? 
+Paper = Silhouettes: A graphical aid to the interpretation and validation of cluster analysis
+      - We can divide our data into different folds, train on data other than the held-out one, and do kmeans on the held-out one. We can then check how well the clustering quality is by measuring the Silhouttes metrics. 
+
+Supervised Learning: 
+1. Can this be applied to better test the unsupervised learning part? 
+2. multi-classification SVM... let's see how well the labeling works from the last step? 
+

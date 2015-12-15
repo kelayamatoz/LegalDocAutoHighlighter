@@ -1,0 +1,123 @@
+Atlassian Guidelines for Law Enforcement Requests
+
+Effective starting: May 30, 2014
+
+These operational guidelines are a reference for law enforcement officials seeking customer records from Atlassian.
+
+These guidelines are created as a courtesy and do not create obligations concerning how Atlassian will respond in any particular case.
+
+Atlassian’s policy on responding to law enforcement requests
+
+Atlassian respects the rules and laws of the jurisdiction in which it operates as well as the privacy and rights of its customers. Consequently, Atlassian provides customer information in response to law enforcement requests only when we believe that we are legally required to do so.
+
+Consequently, to obtain non-public customer information, law enforcement officials must provide the appropriate legal documents required for the type of information being sought, such as a subpoena, court order, or a warrant. To protect our customers’ rights, we scrutinize all requests to ensure that they comply with the law.
+
+Atlassian will not provide customer content without a search warrant (or an equivalent legal obligation supported by probable cause) that requires that the content be disclosed.
+
+What Atlassian customer information may be available in response to a lawful request?
+
+The following information may be available in response to an enforceable government request:
+
+Customer Information
+
+Customer information supplied by the customer at time of ordering, including email address and country of origin. Other optional fields may be available if voluntarily supplied by the customer, including name, phone number, screen name, department, position, homepage URL, location, about me, avatar type, avatar URL, and instant messenger ID.
+IP addresses associated with log-ins to a specific customer instance or user account
+URLs accessed and time/date of that access
+Billing contact information (name and billing address)(only if the user is a paying customer; we do not have billing contact information for users of our free accounts)
+ 
+
+Bitbucket
+
+User ID and email address supplied by the customer. Optional fields may be available if voluntarily supplied by the customer, including name, location, website, and secondary email
+Dates that Bitbucket account and repositories were created and last accessed
+IP addresses associated with log-ins to a user account
+Source code committed to (i.e., stored in) a Bitbucket repository
+Team memberships and associations
+ 
+
+HipChat
+
+User ID, name, email
+Time and date that a user account was created and last accessed
+IP addresses associated with log-ins to a user account
+Types of devices associated with an account
+Telephone numbers provided by the user, if any
+Chat messages
+Uploaded files
+ 
+
+OnDemand
+
+User access information for each customer instance
+IP access information for customer instance ingress and egress (i.e., each time a customer takes an action in a customer instance)
+Email point to point logs
+Customer content and attachments
+Will Atlassian preserve customer information?
+
+Yes. Atlassian will preserve customer information for 90 days upon a valid request. Atlassian will preserve information for an additional 90-day period upon receipt of a valid request to extend the preservation. If Atlassian does not receive formal legal process for the preserved information before the end of the preservation period, the preserved information may be deleted when the preservation period expires.
+
+Preservation requests must be sent on official law enforcement letterhead, signed, and must include:
+
+The relevant account information identified below (“What Atlassian customer information must I include in my request?”) for the customer whose information is requested to be preserved
+A valid return email address
+A statement that steps are being taken to obtain a court order or other legal process for the data sought to be preserved
+Preservation requests may be sent via the service methods described below (“How do I serve a data request on Atlassian?”).
+
+How do I serve a data request on Atlassian?
+
+A preservation request or request for data may be sent via email, certified mail or express courier, or delivered in-person to our corporate headquarters:
+
+Atlassian Inc.
+Attn: Legal Department
+1098 Harrison Street
+San Francisco, CA, 94103
+USA
+lawenforcement@atlassian.com
+
+Requests seeking testimony must be served on our registered agent for service of process. We do not accept those requests in person or via email.
+
+While we agree to accept service of law enforcement requests by these methods, neither Atlassian nor our customers waive any legal rights based on this accommodation.
+
+Each request must include contact information for the authorized law enforcement agency official submitting the request, including:
+
+Requesting agency name
+Requesting agent name and badge/identification number
+Requesting agent employer-issued email address
+Requesting agent phone contact, including any extension
+Requesting agent mailing address (P.O. Box will not be accepted)
+Requested response date (see details below for emergency requests)
+What Atlassian customer information must I include in my request?
+
+When requesting customer information, please provide as much of the following information that is available at the time of the request. Failure to provide the following information may hinder Atlassian’s ability to respond in a timely manner.
+
+Customer Information: Username, email address, IP Address, URL, Support Entitlement Number (SEN)
+Bitbucket: Username, email address, IP address or repository name.
+HipChat: User ID, email address associated with the user account, or HipChat group name and group administrator’s email address.
+OnDemand: Support Entitlement Number (SEN), username, email address, IP address, URL
+Will Atlassian notify customers of requests for account data?
+
+Yes. Atlassian’s policy is to notify customers of requests for their data unless it is prohibited from doing so by statute or court order. Law enforcement officials who believe that notification would jeopardize an investigation should obtain an appropriate court order or other process that specifically prohibits customer notification, such as an order issued pursuant to 18 U.S.C. Section 2705(b).
+
+Further, if your request places Atlassian on notice of an ongoing or prior violation of our terms of use, we will take action to prevent further abuse, including account termination and other actions that may notify the user that we are aware of their misconduct. If you believe in good faith that taking such actions will jeopardize your ongoing investigation, you may request that Atlassian defer such action in your request and Atlassian will take your request under advisement. It is the responsibility of the requesting law enforcement official to make this request, as it is Atlassian’s policy to enforce its terms of use.
+
+Are there additional requirements for international requests?
+
+Yes. U.S. law authorizes Atlassian to respond to requests for customer information from foreign law enforcement agencies that are issued via a U.S. court either by way of a Mutual Legal Assistance Treaty request or letter rogatory. It is our policy to respond to such U.S. court ordered requests when properly served.
+
+Costs
+
+Atlassian reserves the right to seek reimbursement for the costs associated with responding to law enforcement data requests, where appropriate.
+
+What should I do if I have an emergency request for data?
+
+Atlassian evaluates emergency requests on a case-by-case basis. If we receive information that gives us a good faith belief that there is an emergency involving imminent harm to a child or the risk of death or serious physical injury to a person, we may provide information necessary to prevent that harm if we are in a position to do so.
+
+You may submit an emergency request via email to lawenforcement@atlassian.com with the subject line: Emergency Disclosure Request.
+
+Please include all of the following information:
+
+Identify the person who is in danger of death or serious physical injury, or the child who is at risk of imminent harm;
+The nature of the emergency;
+The relevant account information identified above (“What Atlassian customer information must I include in my request?”) for the customer whose information is necessary to prevent an emergency;
+The specific information requested and why that information is necessary to prevent the emergency; and
+All other available details or context regarding the particular circumstances.

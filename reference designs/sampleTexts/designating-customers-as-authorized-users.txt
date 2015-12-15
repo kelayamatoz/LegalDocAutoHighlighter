@@ -1,0 +1,27 @@
+Designating Customers as Authorized Users
+
+Effective starting: April 28, 2014
+
+This is a supplement to the Atlassian Customer Agreement (the “Agreement”) and is included in the Agreement. Any capitalized terms used but not defined below have the meanings in the Agreement. The purpose of this supplement is to allow your customers to be Authorized Users, subject to the terms below.
+
+1. If you designate any of your customers as Authorized Users, you will be responsible for their use of the Software or Hosted Services as you would be for any other Authorized User. Accordingly, you must enter into valid, binding agreements with your customers that require them to comply with the applicable terms of the Agreement (including this supplement), including any conditions or restrictions with respect to use of, or access to, the Software or Hosted Services.
+
+2. For the avoidance of doubt, allowing your customers to be Authorized Users does not mean that you may distribute, resell, or OEM any Software or Hosted Services, or make the products available to your customers on a standalone basis. Rather, it means only that your customers may access your instance of the Software or Hosted Services in order to support their use of your own products and services that are unrelated to the Software or Hosted Services (“Your Products”).
+
+3. Examples include:
+
+3.1 Your customer accessing your Confluence instance to view customer-facing knowledge base articles or technical documentation about Your Products that you have posted in your Confluence instance;
+
+3.2 You using your Confluence instance as a customer-facing extranet for discussions, project updates, and centralized knowledge-sharing source about Your Products;
+
+3.3 Your customers accessing your JIRA instance to provide you with customer feedback on the development of Your Products; and
+
+3.4 You using your JIRA Service Desk instance as a customer-facing helpdesk or support system, and allowing customers to access your JIRA instance to open support tickets.
+
+4. You may not charge your customers for any use of the Software or Hosted Service itself, but may charge your customers as part of an overall program that includes access to your instance of the Software or Hosted Service. An example would be charging your customers for Your Product, where Your Product is a paid support offering that includes, as a minor component, access to the support forum which you provide using your Confluence instance.
+
+5. As an Authorized User, your customers may interact with the Software or Hosted Service but may not receive any administrator, configuration or similar access to the Product. For example, your customers may post comments in a JIRA issue, but you may not permit any of your customers to administer project and global site level configurations.
+
+6. Atlassian will not have any direct or indirect liability or obligation to any of your customers. For the avoidance of doubt, your customers are not parties to, or third party beneficiaries under, the Agreement.
+
+7. You will defend, indemnify and hold harmless Atlassian from and against any loss, cost, liability or damage, including attorneys’ fees, for which Atlassian becomes liable arising from or relating to any claim brought against us by your customers arising out of their use of the Software or Hosted Services through you.
